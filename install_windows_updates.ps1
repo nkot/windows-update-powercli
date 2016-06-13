@@ -6,7 +6,7 @@
         See http://chocolatey.org.
     .DESCRIPTION
         This cmdlet connects to $VIServerName and perform Invoke-VMScript on $virtual_machine_name. Before installing the updates it creates a snapshot. 
-        If installation was sucessfull(VMWare Tools available) it removes the snapshot. 
+        If installation was successful(VMWare Tools available) it removes the snapshot. 
     .EXAMPLE
         Install_windows_updates.ps1 -virtual_machine_name "windows_2008" -VMGuestUsername "Administrator" -VMGuestPassword "GuestPassword" -VIServerName "somevServer.YourCompany.com" -VIServerUsername "Administrator" -VIServerPassword "ViServerPassword"
      
